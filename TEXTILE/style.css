@@ -69,6 +69,9 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     margin-block: 3%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 .cta-button {
