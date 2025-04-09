@@ -69,9 +69,6 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     margin-block: 3%;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
 }
 
 .cta-button {
@@ -160,6 +157,12 @@ footer h2 {
     ul {
         flex-direction: column;
         row-gap: 1.5rem;
+    }
+
+    .hero {
+         -webkit-background-clip: text;
+         background-clip: text;
+         color: transparent;
     }
 
 }
